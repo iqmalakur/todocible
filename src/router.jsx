@@ -1,17 +1,17 @@
-// eslint-disable-next-line no-unused-vars
-import { RouteObject } from "react-router-dom";
+import Home from "./components/home/Home";
+import Task from "./components/task/Task";
 
 /**
- * @type {RouteObject[]}
+ * @type {import('react-router-dom').RouteObject}
  */
 const router = [
   {
     path: "/",
-    element: <h1>Halaman Home</h1>,
+    element: <Home />,
   },
   {
     path: "/task",
-    element: <h1>Halaman Task</h1>,
+    element: <Task />,
   },
 ];
 
