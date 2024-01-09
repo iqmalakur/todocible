@@ -1,5 +1,11 @@
+import Navbar from "../common/Navbar";
+
 function Home() {
-  return <h1>Home Component</h1>;
+  return (
+    <>
+      <Navbar withButton={true} />
+    </>
+  );
 }
 
 export default Home;
